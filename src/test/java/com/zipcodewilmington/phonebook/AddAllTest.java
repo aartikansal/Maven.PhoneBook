@@ -5,6 +5,9 @@ import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
+
 
 public class AddAllTest {
 
@@ -66,3 +69,4 @@ public class AddAllTest {
         Assert.assertEquals(Arrays.asList(phoneNumbers), actualPhoneNumbers);
     }
 }
+

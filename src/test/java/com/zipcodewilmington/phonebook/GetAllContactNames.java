@@ -16,10 +16,8 @@ public class GetAllContactNames {
             String name = names[i];
             phoneBook.add(name, "");
         }
-
         // when
         List<String> actualNames = phoneBook.getAllContactNames();
-
         // then
         Assert.assertEquals(Arrays.asList(names), actualNames);
     }
